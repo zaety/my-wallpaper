@@ -266,10 +266,10 @@
     <script>
         // 1. DATA JADUAL INDUK (Kekal format asal tanpa ubah jadual besar)
         const masterSchedule = [
-            { code: "SCCVK3073", subject: "VIDEO DIGITAL", time: "08:30 - 10:30", days: ["SUNDAY", "WEDNESDAY"], room: "BT A7 / MAKMAL SOG", prof: "Dr. Nurulhuda Binti Ibrahim" },
+            { code: "SCCVK3043", subject: "VIDEO DIGITAL", time: "08:30 - 10:30", days: ["SUNDAY", "WEDNESDAY"], room: "BT A7 / MAKMAL SOG", prof: "Dr. Nurulhuda Binti Ibrahim" },
             { code: "SCCVK3073", subject: "MM SEMINAR", time: "11:30 - 14:30", days: ["SUNDAY"], room: "DKG 6/17", prof: "Dr. Nurulhuda Binti Ibrahim" },
             { code: "SCCTK3033", subject: "MEDIA PSYCHOLOGY", time: "08:30 - 11:30", days: ["MONDAY"], room: "DP A.2", prof: "-" },
-            { code: "SCCVK1043", subject: "HCI", time: "14:30 - 16:30", days: ["MONDAY", "THURSDAY"], room: "SMMTC1 / BT A5", prof: "Ts. Dr. Azliza Binti Othman" },
+            { code: "SCCVK2013", subject: "HCI", time: "14:30 - 16:30", days: ["MONDAY", "THURSDAY"], room: "SMMTC1 / BT A5", prof: "Ts. Dr. Azliza Binti Othman" },
             { code: "SCCVK3143", subject: "DIGITAL REALITY", time: "16:30 - 18:30", days: ["MONDAY", "THURSDAY"], room: "BT A5 / SMMTC1", prof: "Prof. Madya Ts. Dr. Nadia Diyana" },
             { code: "SCCVK3053", subject: "INTERNET SERVICE", time: "11:30 - 14:30", days: ["WEDNESDAY"], room: "DKG 6/16", prof: "Nur Fadziana Binti Faisal Mohamed" }
         ];
@@ -277,20 +277,20 @@
         // 2. DATA KHAS JADUAL HARIAN (Dihuraikan bilik spesifik untuk "Jadual Hari Ini")
         const dailyScheduleMap = [
             // AHAD (0)
-            { dayCode: 0, code: "SCCVK3073", subject: "VIDEO DIGITAL", time: "08:30 - 10:30", room: "BT A7" },            
+            { dayCode: 0, code: "SCCVK3043", subject: "VIDEO DIGITAL", time: "08:30 - 10:30", room: "BT A7" },            
             { dayCode: 0, code: "SCCVK3073", subject: "MM SEMINAR", time: "11:30 - 14:30", room: "DKG 6/17" },
 
             // ISNIN (1)
             { dayCode: 1, code: "SCCTK3033", subject: "MEDIA PSYCHOLOGY", time: "08:30 - 11:30", room: "DP A.2" },
-            { dayCode: 1, code: "SCCVK1043", subject: "HCI", time: "14:30 - 16:30", room: "Training Room SMMTC" },
+            { dayCode: 1, code: "SCCVK2013", subject: "HCI", time: "14:30 - 16:30", room: "Training Room SMMTC" },
             { dayCode: 1, code: "SCCVK3143", subject: "DIGITAL REALITY", time: "16:30 - 18:30", room: "BT A5" },
 
             // RABU (3)
-            { dayCode: 0, code: "SCCVK3073", subject: "VIDEO DIGITAL", time: "08:30 - 10:30", room: "Makmal SOG" },
+            { dayCode: 3, code: "SCCVK3043", subject: "VIDEO DIGITAL", time: "08:30 - 10:30", room: "Makmal SOG" },
             { dayCode: 3, code: "SCCVK3053", subject: "INTERNET SERVICE", time: "11:30 - 14:30", room: "DKG 6/16" },
 
             // KHAMIS (4)
-            { dayCode: 4, code: "SCCVK1043", subject: "HCI", time: "14:30 - 16:30", room: "BT A5" },
+            { dayCode: 4, code: "SCCVK2013", subject: "HCI", time: "14:30 - 16:30", room: "BT A5" },
             { dayCode: 4, code: "SCCVK3143", subject: "DIGITAL REALITY", time: "16:30 - 18:30", room: "Training Room SMMTC" }
         ];
 
